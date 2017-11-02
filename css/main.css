@@ -1,0 +1,11 @@
+nav a {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	padding: 0.25em 1em 0.25em 0;
+}
+
+h1 {
+	font-family: 'Prata', serif;
+}

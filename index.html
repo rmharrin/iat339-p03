@@ -8,203 +8,208 @@
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
 </head>
 <body>
-    <h1>rebecca harrington</h1>
-    <nav>
-        <a href="#">interactive elements</a>
-        <a href="#">text elements</a>
-        <a href="#">combined elements</a>
+    <h1>p03 styleguide</h1>
+    <nav class="grid">
+        <a href="#" class="grid-nav-item">interactive elements</a>
+        <a href="#" class="grid-nav-item">text elements</a>
+        <a href="#" class="grid-nav-item">combined elements</a>
     </nav>
-    <section id="interactive">
-        <h2>Interactive Elements</h2>
-        <section class="element">
-            <h3>In-Text Link</h3>
-            <div class="Grid Grid--full large-Grid--fit">
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>CSS Selector</h4>
-                        <p>.in-text-link</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;p&gt;Here is an &lt;a class="in-text-link" href="#"&gt;in-text&lt;/a&gt; link.&lt;/p&gt;</code>
+    <!-- <div class="grid">
+        <section id="interactive">
+            <h2>Interactive Elements</h2>
+            <section class="element">
+                <h3>In-Text Link</h3>
+                <div class="Grid Grid--full large-Grid--fit">
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>CSS Selector</h4>
+                            <p>.in-text-link</p>
+                            <h4>Sample Code</h4>
+                            <code>&lt;p&gt;Here is an &lt;a class="in-text-link" href="#"&gt;in-text&lt;/a&gt; link.&lt;/p&gt;</code>
+                        </div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>Rendered Element</h4>
+                            <p>Here is an <a class="in-text-link" href="#">in-text</a> link.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>Rendered Element</h4>
-                        <p>Here is an <a class="in-text-link" href="#">in-text</a> link.</p>
+            </section>
+            <section class="element">
+                <h3>Navigation Button</h3>
+                <div class="Grid Grid--full large-Grid--fit">
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>CSS Selector</h4>
+                            <p>.buttonNav</p>
+                            <h4>Sample Code</h4>
+                            <code>&lt;a class="buttonNav" href="subscribe.html"&gt;Subscribe&lt;/a&gt;</code>
+                        </div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>Rendered Element</h4>
+                            <nav class="navMain">
+                                <a class="buttonNav" href="subscribe.html">Subscribe</a>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="element">
+                <h3>Submit Button</h3>
+                <div class="Grid Grid--full large-Grid--fit">
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>CSS Selector</h4>
+                            <p>.button</p>
+                            <h4>Sample Code</h4>
+                            <code>&lt;a href="paymentconfirmation.html" class="button"&gt;Submit&lt;/a&gt;</code>
+                        </div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>Rendered Element</h4>
+                            <a href="#" class="button">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="element">
+                <h3>Text Input Field &amp; Label</h3>
+                <div class="Grid Grid--full large-Grid--fit">
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>CSS Selector</h4>
+                            <p>label, input</p>
+                            <h4>Sample Code</h4>
+                            <code>&lt;label for="inputFirstName"&gt;First Name:&lt;/label&gt;<br>
+                            &lt;input id="inputFirstName" name="First Name" placeholder="Harry" type="text"&gt;</code>
+                        </div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>Rendered Element</h4>
+                            <label for="inputFirstName">First Name:</label>
+                            <input id="inputFirstName" name="First Name" placeholder="Harry" type="text">
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
-        <section class="element">
-            <h3>Navigation Button</h3>
-            <div class="Grid Grid--full large-Grid--fit">
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>CSS Selector</h4>
-                        <p>.buttonNav</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;a class="buttonNav" href="subscribe.html"&gt;Subscribe&lt;/a&gt;</code>
+    </div>
+    <div class="grid">
+        <section id="text">
+            <h2>Text Styling</h2>
+            <section class="element">
+                <h3>Levels of Headings</h3>
+                <div class="Grid Grid--full large-Grid--fit">
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>CSS Selector</h4>
+                            <p>h1, h2, h3</p>
+                            <h4>Sample Code</h4>
+                            <code>&lt;h1&gt;Tale and Tea: Curl Up With A Good Read&lt;/h1&gt;<br>
+                                &lt;h2&gt;Three Steps to Your Next Favourite Book&lt;/h2&gt;<br>
+                                &lt;h3&gt;Tea Sampler&lt;/h3&gt;
+                            </code>
+                        </div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>Rendered Element</h4>
+                            <h1>Tale and Tea: Curl Up With A Good Read</h1>
+                            <h2>Three Steps to Your Next Favourite Book</h2>
+                            <h3>Tea Sampler</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>Rendered Element</h4>
-                        <nav class="navMain">
-                            <a class="buttonNav" href="subscribe.html">Subscribe</a>
-                        </nav>
+            </section>
+            <section class="element">
+                <h3>Paragraph</h3>
+                <div class="Grid Grid--full large-Grid--fit">
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>CSS Selector</h4>
+                            <p>p</p>
+                            <h4>Sample Code</h4>
+                            <code>&lt;p&gt;Our team of book lovers and tea experts are in touch with what is up-and-coming, what is popular, and what a lot of people might not know about. They bring together your quiz profile and their research to create the perfect combination of products that suit your tastes.&lt;/p&gt;</code>
+                        </div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>Rendered Element</h4>
+                            <p>Our team of book lovers and tea experts are in touch with what is up-and-coming, what is popular, and what a lot of people might not know about. They bring together your quiz profile and their research to create the perfect combination of products that suit your tastes.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="element">
+                <h3>Bulleted List</h3>
+                <div class="Grid Grid--full large-Grid--fit">
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>CSS Selector</h4>
+                            <p>ul</p>
+                            <h4>Sample Code</h4>
+                            <code>&lt;ul&gt;<br>
+                                    &lt;li&gt;Go to your Account View.&lt;/li&gt;<br>
+                                    &lt;li&gt;Click on Current Box.&lt;/li&gt;<br>
+                                    &lt;li&gt;Find the product you'd like to return.&lt;/li&gt;<br>
+                                    &lt;li&gt;Click the "Return" button next to it.&lt;/li&gt;<br>
+                                    &lt;li&gt;Fill out the return request form.&lt;/li&gt;<br>
+                                    &lt;li&gt;Check your e-mail for an e-mail confirmation from us.&lt;/li&gt;<br>
+                                &lt;/ul&gt;</code>
+                        </div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>Rendered Element</h4>
+                                <ul>
+                                    <li>Go to your Account View.</li>
+                                    <li>Click on Current Box.</li>
+                                    <li>Find the product you'd like to return.</li>
+                                    <li>Click the "Return" button next to it.</li>
+                                    <li>Fill out the return request form.</li>
+                                    <li>Check your e-mail for an e-mail confirmation from us.</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="element">
+                <h3>Numbered List</h3>
+                <div class="Grid Grid--full large-Grid--fit">
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>CSS Selector</h4>
+                            <p>ol</p>
+                            <h4>Sample Code</h4>
+                            <code>&lt;ol&gt;<br>
+                                    &lt;li&gt;They are experts. No one eats up a book or tastes a cup of tea like our people do.&lt;/li&gt;<br>
+                                    &lt;li&gt;They receive T&amp;T boxes every month, too.&lt;/li&gt;<br>
+                                    &lt;li&gt;They come from all across the globe, bringing us the best of the best.&lt;/li&gt;<br>
+                                &lt;/ol&gt;</code>
+                        </div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="gridInfo">
+                            <h4>Rendered Element</h4>
+                            <ol>
+                                <li>They are experts. No one eats up a book or tastes a cup of tea like our people do.</li>
+                                <li>They receive T&amp;T boxes every month, too.</li>
+                                <li>They come from all across the globe, bringing us the best of the best.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>                        
         </section>
-        <section class="element">
-            <h3>Submit Button</h3>
-            <div class="Grid Grid--full large-Grid--fit">
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>CSS Selector</h4>
-                        <p>.button</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;a href="paymentconfirmation.html" class="button"&gt;Submit&lt;/a&gt;</code>
-                    </div>
-                </div>
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>Rendered Element</h4>
-                        <a href="#" class="button">Submit</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="element">
-            <h3>Text Input Field &amp; Label</h3>
-            <div class="Grid Grid--full large-Grid--fit">
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>CSS Selector</h4>
-                        <p>label, input</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;label for="inputFirstName"&gt;First Name:&lt;/label&gt;<br>
-                        &lt;input id="inputFirstName" name="First Name" placeholder="Harry" type="text"&gt;</code>
-                    </div>
-                </div>
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>Rendered Element</h4>
-                        <label for="inputFirstName">First Name:</label>
-                        <input id="inputFirstName" name="First Name" placeholder="Harry" type="text">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
-    <section id="text">
-        <h2>Text Styling</h2>
-        <section class="element">
-            <h3>Levels of Headings</h3>
-            <div class="Grid Grid--full large-Grid--fit">
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>CSS Selector</h4>
-                        <p>h1, h2, h3</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;h1&gt;Tale and Tea: Curl Up With A Good Read&lt;/h1&gt;<br>
-                            &lt;h2&gt;Three Steps to Your Next Favourite Book&lt;/h2&gt;<br>
-                            &lt;h3&gt;Tea Sampler&lt;/h3&gt;
-                        </code>
-                    </div>
-                </div>
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>Rendered Element</h4>
-                        <h1>Tale and Tea: Curl Up With A Good Read</h1>
-                        <h2>Three Steps to Your Next Favourite Book</h2>
-                        <h3>Tea Sampler</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="element">
-            <h3>Paragraph</h3>
-            <div class="Grid Grid--full large-Grid--fit">
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>CSS Selector</h4>
-                        <p>p</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;p&gt;Our team of book lovers and tea experts are in touch with what is up-and-coming, what is popular, and what a lot of people might not know about. They bring together your quiz profile and their research to create the perfect combination of products that suit your tastes.&lt;/p&gt;</code>
-                    </div>
-                </div>
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>Rendered Element</h4>
-                        <p>Our team of book lovers and tea experts are in touch with what is up-and-coming, what is popular, and what a lot of people might not know about. They bring together your quiz profile and their research to create the perfect combination of products that suit your tastes.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="element">
-            <h3>Bulleted List</h3>
-            <div class="Grid Grid--full large-Grid--fit">
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>CSS Selector</h4>
-                        <p>ul</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;ul&gt;<br>
-                                &lt;li&gt;Go to your Account View.&lt;/li&gt;<br>
-                                &lt;li&gt;Click on Current Box.&lt;/li&gt;<br>
-                                &lt;li&gt;Find the product you'd like to return.&lt;/li&gt;<br>
-                                &lt;li&gt;Click the "Return" button next to it.&lt;/li&gt;<br>
-                                &lt;li&gt;Fill out the return request form.&lt;/li&gt;<br>
-                                &lt;li&gt;Check your e-mail for an e-mail confirmation from us.&lt;/li&gt;<br>
-                            &lt;/ul&gt;</code>
-                    </div>
-                </div>
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>Rendered Element</h4>
-                            <ul>
-                                <li>Go to your Account View.</li>
-                                <li>Click on Current Box.</li>
-                                <li>Find the product you'd like to return.</li>
-                                <li>Click the "Return" button next to it.</li>
-                                <li>Fill out the return request form.</li>
-                                <li>Check your e-mail for an e-mail confirmation from us.</li>
-                            </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="element">
-            <h3>Numbered List</h3>
-            <div class="Grid Grid--full large-Grid--fit">
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>CSS Selector</h4>
-                        <p>ol</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;ol&gt;<br>
-                                &lt;li&gt;They are experts. No one eats up a book or tastes a cup of tea like our people do.&lt;/li&gt;<br>
-                                &lt;li&gt;They receive T&amp;T boxes every month, too.&lt;/li&gt;<br>
-                                &lt;li&gt;They come from all across the globe, bringing us the best of the best.&lt;/li&gt;<br>
-                            &lt;/ol&gt;</code>
-                    </div>
-                </div>
-                <div class="Grid-cell">
-                    <div class="gridInfo">
-                        <h4>Rendered Element</h4>
-                        <ol>
-                            <li>They are experts. No one eats up a book or tastes a cup of tea like our people do.</li>
-                            <li>They receive T&amp;T boxes every month, too.</li>
-                            <li>They come from all across the globe, bringing us the best of the best.</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </section>                        
-    </section>
+    </div>
     <section id="combined">
         <h2>Combined Elements</h2>
         <section class="element">
@@ -243,7 +248,7 @@
                             <nav class="navMain">
                                 <div class="Grid">
                                     <div class="Grid-cell">
-                                        <img src="img/logo-small.png" alt="Tale and Tea small logo">
+                                        <!-- <img src="img/logo-small.png" alt="Tale and Tea small logo">
                                     </div>
                                     <div class="Grid-cell flexHigher">
                                         <a class="buttonNav" href="subscribe.html">Subscribe</a> 
@@ -355,6 +360,6 @@
                 </div>
             </div>
         </section>                       
-    </section> 
+    </section>--> 
 </body>
 </html>

@@ -1,0 +1,44 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.grid {
+	display: -ms-flex;
+	display: flex;
+
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.grid-nav-item {
+	flex: 1;
+	min-width: 20em;
+/*	-ms-flex-basis: 20em;
+	flex-basis: 20em;*/
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+}
+
+@media (min-width: 0) {
+	nav a {
+		text-align: center;
+		border-bottom: 3px black solid;
+	}
+	h1 {
+		text-align: center;
+	}
+}
+
+@media (min-width: 40em) {
+	nav a {
+		border: none;
+	}
+
+	nav a:hover, nav a:focus {
+		border-bottom: 3px black solid;
+	}
+
+	.grid-nav-item {
+		min-width: 30%;
+	}
+}

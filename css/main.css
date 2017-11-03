@@ -17,3 +17,12 @@ nav a:hover, nav a:focus {
 h1 {
 	font-family: 'Prata', serif;
 }
+
+h2 {
+	display: block;
+	font-family: 'Quattrocento', sans-serif;
+}
+
+h3 {
+	display: block;
+}

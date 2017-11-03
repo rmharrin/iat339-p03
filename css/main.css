@@ -1,3 +1,16 @@
+/* C O L O U R S */
+	/*pink*/
+	/*background-color: rgb(244, 220, 225);*/
+	/*dark green*/
+	/*background-color: rgb(57, 89, 64);*/
+	/*grey*/
+	/*background-color: rgb(245, 245, 245);*/	
+
+/* P A G E - L E V E L  E L E M E N T S */
+body {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
 nav a {
 	display: inline-block;
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -20,9 +33,46 @@ h1 {
 
 h2 {
 	display: block;
-	font-family: 'Quattrocento', sans-serif;
+	font-family: 'Prata', serif;
+	padding: 1rem;
+	text-align: center;	
+	/*pink*/
+	background-color: rgb(244, 220, 225);	
 }
 
 h3 {
 	display: block;
+	padding: 1rem 0 0.5rem 0;
+	margin-left: 1rem;
+	font-variant: 700;
+	border-bottom: 3px black solid;
+}
+
+.element .grid {
+	padding: 1rem;
+	/*grey*/
+	background-color: rgb(245, 245, 245);
+}
+
+.grid-element-cell {
+	padding: 0 0 1rem 1rem;
+}
+
+code {
+	padding: 0.5rem;
+	background-color: white;
+}
+
+/* S T Y L E  G U I D E  E L E M E N T S */
+
+.link-intext {
+	/*dark green*/
+	color: rgb(57, 89, 64);
+	text-decoration: none;
+}
+
+.link-intext:hover, .link-intext:focus {
+	font-family: 'Prata', serif;
+	font-style: italic;
+	font-size: 0.9rem;
 }

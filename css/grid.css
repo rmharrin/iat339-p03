@@ -6,13 +6,12 @@
 	display: -ms-flex;
 	display: flex;
 
-	/*-ms-flex-wrap: wrap;
-	flex-wrap: wrap;*/
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .grid-nav-item {
 	flex: 1;
-	min-width: 20em;
 	-ms-flex-grow: 1;
 	flex-grow: 1;
 }
@@ -25,6 +24,7 @@
 .grid-element-cell {
 	-ms-flex-grow: 1;
 	flex-grow: 1;
+	max-width: 50%;
 }
 
 @media (min-width: 0) {
@@ -32,10 +32,21 @@
 		text-align: center;
 		border-bottom: 3px black solid;
 	}
+
 	h1 {
 		text-align: center;
 	}
+
+	/*.grid-nav-item {
+		width: 100%;
+	}*/
+
+	.grid-element-cell {
+		max-width: 100%;
+		display: block;
+	}
 }
+
 
 @media (min-width: 40em) {
 	nav a {
@@ -51,7 +62,8 @@
 	}
 
 	.grid-element-cell {
-		/*max-width: 50%;
-		display: inline-block;*/
+			-ms-flex-grow: 1;
+	flex-grow: 1;
+	max-width: 50%;
 	}
 }

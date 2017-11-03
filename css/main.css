@@ -1,10 +1,10 @@
 /* C O L O U R S */
 	/*pink*/
-	/*background-color: rgb(244, 220, 225);*/
+	/*rgb(244, 220, 225);*/
 	/*dark green*/
-	/*background-color: rgb(57, 89, 64);*/
+	/*rgb(57, 89, 64);*/
 	/*grey*/
-	/*background-color: rgb(245, 245, 245);*/	
+	/*rgb(245, 245, 245);*/	
 
 /* P A G E - L E V E L  E L E M E N T S */
 body {
@@ -17,7 +17,6 @@ nav a {
 	color: black;
 	text-decoration: none;
 	padding: 0.5rem;
-	/*background-color: black;*/
 	width: 100%;
 }
 
@@ -29,15 +28,17 @@ nav a:hover, nav a:focus {
 
 h1 {
 	font-family: 'Prata', serif;
+	padding: 1rem;
+	text-align: center;	
+	/*pink*/
+	background-color: rgb(244, 220, 225);	
 }
 
 h2 {
 	display: block;
 	font-family: 'Prata', serif;
-	padding: 1rem;
-	text-align: center;	
-	/*pink*/
-	background-color: rgb(244, 220, 225);	
+	border-bottom: 3px black solid;	
+	text-align: center;
 }
 
 h3 {
@@ -45,7 +46,6 @@ h3 {
 	padding: 1rem 0 0.5rem 0;
 	margin-left: 1rem;
 	font-variant: 700;
-	border-bottom: 3px black solid;
 }
 
 .element .grid {
@@ -61,6 +61,7 @@ h3 {
 code {
 	padding: 0.5rem;
 	background-color: white;
+	line-height: 1.5rem;
 }
 
 /* S T Y L E  G U I D E  E L E M E N T S */

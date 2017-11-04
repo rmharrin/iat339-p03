@@ -10,12 +10,12 @@
 
 /* P A G E - L E V E L  E L E M E N T S */
 body {
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 nav a {
 	display: inline-block;
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: black;
 	text-decoration: none;
 	padding: 0.5rem;
@@ -23,12 +23,11 @@ nav a {
 	border-bottom: 3px white solid;
 }
 
-nav a:hover, nav a:focus {
-	font-family: 'Prata', serif;
+/*nav a:hover, nav a:focus {
+	font-family: 'Montserrat', serif;
 	font-style: italic;
 	font-size: 0.9rem;
-}
-
+}*/
 
 .nav-main {
 	color: white;
@@ -37,20 +36,20 @@ nav a:hover, nav a:focus {
 }
 
 h1 {
-	font-family: 'Prata', serif;
+	font-family: 'Montserrat', serif;
+	text-transform: uppercase;
 	padding: 1rem;
-	text-align: center;	
-	/*pink*/
-	background-color: rgb(244, 220, 225);	
+	text-align: center;
+			
 }
 
 h2 {
 	display: block;
-	font-family: 'Prata', serif;
+	font-family: 'Montserrat', serif;
 	border-bottom: 3px black solid;	
 	text-align: center;
-	/*grey*/
-	background-color: rgb(245, 245, 245);	
+	/*pink*/
+	background-color: rgb(244, 220, 225);	
 	padding: 0.5rem;
 }
 
@@ -84,7 +83,7 @@ code {
 }
 
 .link-intext:hover, .link-intext:focus {
-	font-family: 'Prata', serif;
+	font-family: 'Montserrat', serif;
 	font-style: italic;
 	font-size: 0.9rem;
 }

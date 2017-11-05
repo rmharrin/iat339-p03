@@ -11,68 +11,69 @@
     <link href="css/grid.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav-main grid">
-        <a href="#" class="nav-main grid-nav-item">style guide</a>
-        <a href="#" class="nav-main grid-nav-item">process analyses</a>
-        <a href="#" class="nav-main grid-nav-item">bio draft</a>
-        <a href="http://rebeccaharrington.ca/atkinsonlandscaping.html" target="_blank" class="nav-main grid-nav-item">templates</a>
+    <nav class="nav-main-container grid">
+        <a href="styleguide.html" class="nav-main-item grid-nav-item">style guide</a>
+        <a href="process.html" class="nav-main-item grid-nav-item">process analyses</a>
+        <a href="#" class="nav-main-item grid-nav-item">bio draft</a>
+        <a href="http://rebeccaharrington.ca/atkinsonlandscaping.html" target="_blank" class="nav-main-item grid-nav-item">templates</a>
     </nav>
-    <h1>rebecca harrington</h1>
+    <h1>rebecca harrington</h1>    
+    <h2>project three style guide</h2>
     <nav class="grid">
-        <a href="#interactive" class="nav-sub grid-nav-item">interactive</a>
-        <a href="#text" class="nav-sub grid-nav-item">text</a>
-        <a href="#combined" class="nav-sub grid-nav-item">combined</a>
+        <a href="#interactive" class="nav-sub grid-nav-item">interactive elements</a>
+        <a href="#text" class="nav-sub grid-nav-item">text elements</a>
+        <a href="#combined" class="nav-sub grid-nav-item">combined elements</a>
     </nav>
         <section id="interactive">
-            <h2>interactive elements</h2>
+            <h3>interactive elements</h3>
             <section class="element">
-                <h3>In-Text Link</h3>
+                <h4>In-Text Link</h4>
                 <div class="grid"> 
                     <div class="grid-element-cell">
-                        <h4>CSS Selector</h4>
+                        <h5>CSS Selector</h5>
                         <p>.in-text-link</p>
-                        <h4>Sample Code</h4>
+                        <h5>Sample Code</h5>
                         <code>&lt;p&gt;Here is an &lt;a class="link-intext" href="#"&gt;in-text&lt;/a&gt; link.&lt;/p&gt;</code>
                     </div>
                     <div class="grid-element-cell">
-                        <h4>Rendered Element</h4>
+                        <h5>Rendered Element</h5>
                         <p>Here is an <a class="link-intext" href="#">in-text</a> link.</p>
                     </div>
                 </div>
             </section>
             <section class="element">
-                <h3>Navigation Button</h3>
+                <h4>Navigation Button</h4>
                 <div class="grid"> 
                     <div class="grid-element-cell">
-                        <h4>CSS Selector</h4>
-                        <p>.nav-main</p>
-                        <h4>Sample Code</h4>
+                        <h5>CSS Selector</h5>
+                        <p>.nav-main-item</p>
+                        <h5>Sample Code</h5>
                         <code>&lt;a class="nav-main grid-nav-item" href="about.html"&gt;about&lt;/a&gt;</code>
                     </div>
                     <div class="grid-element-cell">
-                        <h4>Rendered Element</h4>
+                        <h5>Rendered Element</h5>
                         <nav>
-                            <a href="#" class="grid-nav-item">about</a>
+                            <a href="#" class="nav-main-item grid-nav-item">about</a>
                         </nav>
                     </div>
                 </div>
             </section>
         </section>
         <section id="text">
-            <h2>text-level elements</h2>
+            <h3>text-level elements</h3>
             <section class="element">
-                <h3>Levels of Headings</h3>
+                <h4>Levels of Headings</h4>
                 <div class="grid"> 
-                    <div class="grid-element-cell">
-                        <h4>CSS Selector</h4>
+                    <div class="grid-element-cell grid-instantStack">
+                        <h5>CSS Selector</h5>
                         <p>h1, h2, h3</p>
-                        <h4>Sample Code</h4>
+                        <h5>Sample Code</h5>
                         <code>&lt;h1&gt;rebecca harrington&lt;/h1&gt;<br>
                               &lt;h2&gt;visual + communication design&lt;/h2&gt;<br>
                               &lt;h3&gt;projects&lt;/h3&gt;</code>
                     </div>
-                    <div class="grid-element-cell">
-                        <h4>Rendered Element</h4>
+                    <div class="grid-element-cell grid-instantStack">
+                        <h5>Rendered Element</h5>
                         <h1>rebecca harrington</h1>
                         <h2>visual + communication design</h2>
                         <h3>projects</h3>
@@ -80,27 +81,27 @@
                 </div>
             </section>
             <section class="element">
-                <h3>Paragraphs</h3>
+                <h4>Paragraphs</h4>
                 <div class="grid"> 
                     <div class="grid-element-cell">
-                        <h4>CSS Selector</h4>
+                        <h5>CSS Selector</h5>
                         <p>p</p>
-                        <h4>Sample Code</h4>
+                        <h5>Sample Code</h5>
                         <code>&lt;p&gt;Starting with a clean and legible font, I wanted to create a logo that had distinct features which could be seen and identified from a distance--especially from a car passing by a company truck or yard sign. The green-blue analogous colour scheme is memorable, and can be associated with an Earth-sky relationship. Through hours of pixel-by-pixel feedback, the completed logo was as much a labour of love for the owners as it was for me.&lt;/p&gt;</code>
                     </div>
                     <div class="grid-element-cell">
-                        <h4>Rendered Element</h4>
+                        <h5>Rendered Element</h5>
                         <p>Starting with a clean and legible font, I wanted to create a logo that had distinct features which could be seen and identified from a distance--especially from a car passing by a company truck or yard sign. The green-blue analogous colour scheme is memorable, and can be associated with an Earth-sky relationship. Through hours of pixel-by-pixel feedback, the completed logo was as much a labour of love for the owners as it was for me.</p>
                     </div>
                 </div>
             </section>
             <section class="element">
-                <h3>Bulleted List</h3>
+                <h4>Bulleted List</h4>
                 <div class="grid"> 
                     <div class="grid-element-cell">
-                        <h4>CSS Selector</h4>
+                        <h5>CSS Selector</h5>
                         <p>ul</p>
-                        <h4>Sample Code</h4>
+                        <h5>Sample Code</h5>
                         <code>&lt;ul&gt;<br>
                                 &lt;li&gt;Go to your Account View.&lt;/li&gt;<br>
                                 &lt;li&gt;Click on Current Box.&lt;/li&gt;<br>
@@ -111,7 +112,7 @@
                               &lt;/ul&gt;</code>
                     </div>
                     <div class="grid-element-cell">
-                        <h4>Rendered Element</h4>
+                        <h5>Rendered Element</h5>
                         <ul>
                             <li>Go to your Account View.</li>
                             <li>Click on Current Box.</li>
@@ -124,12 +125,12 @@
                 </div>
             </section>
             <section class="element">
-                <h3>Numbered List</h3>
+                <h4>Numbered List</h4>
                 <div class="grid"> 
                     <div class="grid-element-cell">
-                        <h4>CSS Selector</h4>
+                        <h5>CSS Selector</h5>
                         <p>ol</p>
-                        <h4>Sample Code</h4>
+                        <h5>Sample Code</h5>
                         <code>&lt;ol&gt;<br>
                                 &lt;li&gt;They are experts. No one eats up a book or tastes a cup of tea like our people do.&lt;/li&gt;<br>
                                 &lt;li&gt;They receive T&amp;T boxes every month, too.&lt;/li&gt;<br>
@@ -137,7 +138,7 @@
                               &lt;/ol&gt;</code>
                     </div>
                     <div class="grid-element-cell">
-                        <h4>Rendered Element</h4>
+                        <h5>Rendered Element</h5>
                         <ol>
                             <li>They are experts. No one eats up a book or tastes a cup of tea like our people do.</li>
                             <li>They receive T&amp;T boxes every month, too.</li>
@@ -148,49 +149,53 @@
             </section>
         </section>
         <section id="combined">
-            <h2>combined elements</h2>
+            <h3>combined elements</h3>
             <section class="element">
-                <h3>Main Navigation</h3>
+                <h4>Main Navigation</h4>
                 <div class="grid"> 
-                    <div class="grid-element-cell">
-                        <h4>CSS Selector</h4>
-                        <p>p</p>
-                        <h4>Sample Code</h4>
-                        <code>&lt;nav class="grid"&gt;<br>
-                            &lt;a href="#interactive" class="grid-nav-item">interactive&lt;/a&gt;<br>
-                            &lt;a href="#text" class="grid-nav-item">text&lt;/a&gt;<br>
-                            &lt;a href="#combined" class="grid-nav-item"&gt;combined&lt;/a&gt;<br>
-                        &lt;/nav&gt;</code>
+                    <div class="grid-element-cell grid-instantStack">
+                        <h5>CSS Selector</h5>
+                        <p>nav-main-container, nav-main-item</p>
+                        <h5>Sample Code</h5>
+                        <code>&lt;nav class="nav-main-container grid"&gt;<br>
+                                &lt;a href="#" class="nav-main-item grid-nav-item"&gt;<br>style guide&lt;/a&gt;<br>
+                                &lt;a href="#" class="nav-main-item grid-nav-item"&gt;<br>process analyses&lt;/a&gt;<br>
+                                &lt;a href="#" class="nav-main-item grid-nav-item"&gt;<br>bio draft&lt;/a&gt;<br>
+                                &lt;a href="#" class="nav-main-item grid-nav-item"&gt;<br>templates&lt;/a&gt;<br>
+                               &lt;/nav&gt;</code>
                     </div>
-                    <div class="grid-element-cell">
-                        <h4>Rendered Element</h4>
-                        <nav class="grid">
-                            <a href="#interactive" class="grid-nav-item">interactive</a>
-                            <a href="#text" class="grid-nav-item">text</a>
-                            <a href="#combined" class="grid-nav-item">combined</a>
-                        </nav>
+                    <div class="grid-element-cell grid-instantStack">
+                        <h5>Rendered Element</h5>
+                            <nav class="nav-main-container grid">
+                                <a href="#" class="nav-main-item grid-nav-item">style guide</a>
+                                <a href="#" class="nav-main-item grid-nav-item">process analyses</a>
+                                <a href="#" class="nav-main-item grid-nav-item">bio draft</a>
+                                <a href="#" class="nav-main-item grid-nav-item">templates</a>
+                            </nav>
                     </div>
                 </div>
             </section>
             <section class="element">
-                <h3>Grid Structure</h3>
+                <h4>Grid Structure</h4>
                 <div class="grid"> 
-                    <div class="grid-element-cell">
-                        <h4>Rendered Element</h4>
-                        <nav class="grid">
-                            <a href="#interactive" class="grid-nav-item">interactive</a>
-                            <a href="#text" class="grid-nav-item">text</a>
-                            <a href="#combined" class="grid-nav-item">combined</a>
-                        </nav>
+                    <div class="grid-instantStack">
+                            <nav class="nav-main-container grid">
+                                <a href="#" class="nav-main-item grid-nav-item">style guide</a>
+                                <a href="#" class="nav-main-item grid-nav-item">process analyses</a>
+                                <a href="#" class="nav-main-item grid-nav-item">bio draft</a>
+                                <a href="#" class="nav-main-item grid-nav-item">templates</a>
+                            </nav>
                     </div>
                 </div>
             </section>
             <section class="element">
-                <h3>Colour Scheme</h3>
+                <h4>Colour Scheme</h4>
                 <div class="grid"> 
                     <div class="grid-element-cell colour-swatch" id="primary"></div>
                     <div class="grid-element-cell colour-swatch" id="secondary"></div>
                     <div class="grid-element-cell colour-swatch" id="tertiary"></div>
+                    <div class="grid-element-cell colour-swatch" id="fourth"></div>
+                    <div class="grid-element-cell colour-swatch" id="fifth"></div>
                 </div>
             </section>
         </section>

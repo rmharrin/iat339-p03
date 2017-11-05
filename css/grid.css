@@ -27,26 +27,74 @@
 	max-width: 50%;
 }
 
+.grid-instantStack {
+	min-width: 100%;
+}
+
 @media (min-width: 0) {
+	.nav-main-container {
+		display: block;
+	}
+
+	.nav-main-item {
+		display: block;
+		font-size: 0.8rem;
+	}
+
+	.nav-sub {
+		margin: 1rem 0 1rem 0;
+	}
+
 	nav a {
 		text-align: center;
 		border-bottom: 3px black solid;
 	}
 
-
 	h1 {
 		text-align: center;
+		margin-top: 1rem;
+		font-size: 1.9rem;
+	}
+
+	h2 {
+		margin-top: -2rem;
+		color: rgb(244, 220, 225);
+	}
+
+	h3 {
+		width: 100%;
+	}
+
+	.element {
+		margin: 0;
 	}
 
 	.grid-element-cell {
 		max-width: 100%;
 		display: block;
 	}
+
+	.grid-instantStack h1 {
+		font-size: 1.9rem;
+	}
+
+	code {
+		max-width: 100%;
+	}
 }
 
 
 @media (min-width: 40em) {
+	.nav-main-container {
+		display: flex;
+	}	
+
+	.nav-main-item {
+		display: block;
+	}
+
 	nav a {
+		text-align: center;		
 		border-bottom: 3px white solid;
 	}
 
@@ -54,13 +102,106 @@
 		border-bottom: 3px black solid;
 	}
 
+	h1 {
+		margin-top: -1.4rem;
+		font-size: 3.1rem;		
+	}
+
+	h2 {
+		margin-top: -3.5rem;
+		font-size: 2.2rem;
+	}
+
+	h4 {
+		width: 50%;
+	}
+
+	h5 {
+		width: 100%;
+	}
+
 	.nav-sub {
 		min-width: 30%;
+	}
+
+	.element {
+		margin: 2rem 0 2rem 0;
 	}
 
 	.grid-element-cell {
 		-ms-flex-grow: 1;
 		flex-grow: 1;
 		max-width: 50%;
+	}
+
+	.grid-instantStack h1 {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 64em) {
+	h1 {
+		font-size: 5.1rem;
+		margin-top: -2.4rem;
+	}
+
+	h2 {
+		font-size: 3.5rem;
+		margin: -6rem 0 0 0;
+	}
+
+	h3 {
+		width: 30%;
+	}
+
+	.nav-main-item {
+		font-size: 1rem;
+		text-align: center;
+	}	
+
+	.grid-instantStack h1 {
+		font-size: 5rem;
+	}
+
+	.grid-instantStack h2 {
+		margin: -5rem 0 0 0;
+	}
+}
+
+@media (min-width: 72em) {
+	h1 {
+		font-size: 5.8rem;
+		margin-top: -2.6rem;
+	}
+
+	h2 {
+		font-size: 4rem;
+		margin: -7.5rem 0 0 0;
+	}
+}
+
+@media (min-width: 81em) {
+	h1 {
+		font-size: 6.5rem;
+		margin-top: -3rem;
+	}
+
+	h4 {
+		width: 25%;
+	}
+
+	h5 {
+		width: 50%;
+	}
+}
+
+@media (min-width: 87.5em) {
+	h1 {
+		font-size: 7rem;
+		margin-top: -3.2rem;
+	}
+
+	h2 {
+		margin: -7.9rem 0 0 0;
 	}
 }

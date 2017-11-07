@@ -30,14 +30,47 @@ nav a {
 }
 
 .nav-main-item {
-	color: white;
-	background-color: black;
-	border-bottom: 3px black solid;
+	/*color: white;
+	background-color: black;*/
+	background-color: white;
+	color: black;
+	/*border-bottom: 3px black solid;*/
+	border-bottom: 3px white solid;
 	z-index: 1;
 }
 
 .nav-main-item:hover, .nav-main-item:focus, .nav-sub:hover, .nav-sub:focus {
 	border-bottom: 3px rgb(244, 220, 225) solid;
+}
+
+#nav-main-item1:hover, .nav-main-item1:focus {
+	background: repeating-linear-gradient(
+		125deg,
+		rgb(255, 246, 201),
+		rgb(255, 246, 201) 5px,
+		white 5px,
+		white 20px
+	);	
+}
+
+#nav-main-item2:hover, #nav-main-item2:focus {
+	background-color: black;
+	color: white;
+}
+
+#nav-main-item3:hover, #nav-main-item3:focus {
+	background: repeating-linear-gradient(
+		125deg,
+		rgb(244, 220, 225),
+		rgb(244, 220, 225) 5px,
+		white 5px,
+		white 20px
+	);		
+}
+
+#nav-main-item4:hover, #nav-main-item4:focus {
+	background-color: rgb(57, 89, 64);
+	color: white;
 }
 
 .nav-sub {

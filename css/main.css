@@ -40,6 +40,7 @@ nav a {
 }
 
 .nav-main-item:hover, .nav-main-item:focus, .nav-sub:hover, .nav-sub:focus {
+	/*pink*/
 	border-bottom: 3px rgb(244, 220, 225) solid;
 }
 
@@ -99,13 +100,13 @@ h3 {
 	font-size: 1.5rem;
 	/*background stripes code found at
 	https://css-tricks.com/stripes-css/*/
-	background: repeating-linear-gradient(
+/*	background: repeating-linear-gradient(
 		125deg,
 		rgb(255, 246, 201),
 		rgb(255, 246, 201) 5px,
 		white 5px,
 		white 20px
-	);
+	);*/
 	width: 30%;
 }
 

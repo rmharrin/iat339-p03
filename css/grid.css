@@ -31,6 +31,18 @@
 	min-width: 100%;
 }
 
+.grid-element-sidebar {
+	flex: 2;
+}
+
+.grid-element-main {
+	flex: 3;
+}
+
+.grid-element-aboutImage {
+	flex: 1;
+}
+
 @media (min-width: 0) {
 	.nav-main-container {
 		display: block;
@@ -178,10 +190,6 @@
 	h2 {
 		font-size: 3.5rem;
 		margin: -6rem 0 0 0;
-	}
-
-	h3 {
-		width: 30%;
 	}
 
 	#nav-main-item1, #nav-main-item2, #nav-main-item3, #nav-main-item4 {

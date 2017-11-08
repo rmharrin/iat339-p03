@@ -126,27 +126,74 @@ h5 {
 	width: 15rem;
 }
 
-.content-sidebar {
-	margin: 2rem 1rem 0 1rem;
+.element .grid {
+	padding: 0;
 }
 
-.content-main {
-	margin-top: 5rem;
+.element .grid .grid-element-cell:nth-child(1) {
+	padding: 1rem;
+	/*grey*/
+	background: rgb(245, 245, 245);
 }
 
-p a {
+.grid-element-cell {
+	padding: 0 0 1rem 1rem;
+}
+
+code {
+	padding: 0.5rem;
+	/*pink*/
+	background-color: rgb(244, 220, 225);
+	line-height: 1.5rem;
+}
+
+/* S T Y L E  G U I D E  E L E M E N T S */
+
+.link-intext {
 	font-weight: 800;
 	/*dark green*/
 	color: rgb(57, 89, 64);
 	text-decoration: none;
 }
 
-p a:hover, p a:focus {
+.link-intext:hover, .link-intext:focus {
 	font-family: 'Montserrat', serif;
-	/*pink*/
 	color: rgb(244, 220, 225);
 }
 
-img {
-	max-width: 200px;
+.grid-instantStack h1 {
+	font-size: 5rem;
+}
+
+.colour-swatch {
+	display: block;
+	margin: auto;
+	text-align: center;	
+	padding: 5rem;
+}
+
+#primary {
+	/*pink*/
+	background-color: rgb(244, 220, 225);
+	padding: 5rem;
+}
+
+#secondary {
+	/*yellow*/
+	background-color: rgb(255, 246, 201);
+}
+
+#tertiary {
+	/*dark green*/
+	background-color: rgb(57, 89, 64);
+}
+
+#fourth {
+	/*mauve*/
+	background-color: rgb(167, 134, 141);
+}
+
+#fifth {
+	/*grey*/
+	background-color: rgb(245, 245, 245);
 }

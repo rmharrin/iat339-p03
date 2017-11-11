@@ -210,6 +210,10 @@
 	.grid-instantStack h2 {
 		margin: -5rem 0 0 0;
 	}
+
+	.grid-element-sidebar, .grid-element-main {
+		width: 100%;
+	}
 }
 
 @media (min-width: 72em) {

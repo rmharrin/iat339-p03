@@ -13,6 +13,8 @@
 /* P A G E - L E V E L  E L E M E N T S */
 body {
 	font-family: 'Montserrat', sans-serif;
+	/*background-image: url("bg.jpg");*/
+	/*background-color: black;*/
 }
 
 .nav-main-container {
@@ -70,6 +72,16 @@ nav a {
 }
 
 #nav-main-item4:hover, #nav-main-item4:focus {
+	background: white;
+  	background-image:
+    	radial-gradient(rgb(255, 246, 201) 20%, transparent 0), 
+    	radial-gradient(rgb(255, 246, 201) 20%, transparent 0);
+  	background-size: 30px 30px;
+  	background-position: 0 0, 15px 15px;
+}
+}
+
+#nav-main-item5:hover, #nav-main-item5:focus {
 	background-color: rgb(57, 89, 64);
 	color: white;
 }
@@ -82,6 +94,7 @@ h1 {
 	font-family: 'Montserrat', serif;
 	text-transform: uppercase;
 	text-align: center;
+	color: black;
 }
 
 h2 {
@@ -99,6 +112,9 @@ h3 {
 	font-variant: 800;
 	font-size: 1.5rem;
 	width: 30%;
+	/*dark green*/
+	background-color: rgb(57, 89, 64);
+	color: white;
 }
 
 h4 {
@@ -117,12 +133,28 @@ h5 {
 	width: 15rem;
 }
 
+.content-container {
+	margin: 1rem;
+}
+
+.content-main-about {
+	width: 75%;
+	display: block;
+	margin: auto;
+}
+
 .content-sidebar {
 	margin: 2rem 1rem 0 1rem;
 }
 
+.grid-element-sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .content-main {
-	margin-top: 5rem;
+	margin-top: 2rem;
 }
 
 p a {
@@ -138,7 +170,12 @@ p a:hover, p a:focus {
 	color: rgb(244, 220, 225);
 }
 
-img {
+.grid-element-aboutImage img {
 	max-width: 150px;
-	margin-bottom: 1.5rem;
+	margin: 0.5rem;
+}
+
+img {
+	max-width: 400px;
+	/*margin: 0.5rem 0 0.5rem 0;*/
 }

@@ -11,6 +11,16 @@
 	/*rgb(245, 245, 245);*/	
 
 /* P A G E - L E V E L  E L E M E N T S */
+@font-face {
+  font-family: 'Aliens and Cows';
+  src: url('aliens-and-cows.eot'); /* IE9 Compat Modes */
+  src: url('aliens-and-cows.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('aliens-and-cows.woff2') format('woff2'), /* Super Modern Browsers */
+       url('aliens-and-cows.woff') format('woff'), /* Pretty Modern Browsers */
+       url('aliens-and-cows.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('aliens-and-cows.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	/*background-image: url("bg.jpg");*/

@@ -43,6 +43,23 @@
 	flex: 1;
 }
 
+.content-container {
+	display: -ms-flex;
+	display: flex;
+
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+}
+
+.content-chunk-text {
+	flex: 1 1 30em;
+}
+
+.content-chunk-image {
+	flex: 2 2 5em;
+}
+
 @media (min-width: 0) {
 	.nav-main-container {
 		display: block;

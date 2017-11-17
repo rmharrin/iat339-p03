@@ -119,21 +119,27 @@ h3 {
 	font-family: 'soleil', sans-serif;
 	display: block;
 	text-align: left;
-	padding: 0.75rem 0 0.5rem 0;
+	padding: 0.75rem 0 0.5rem 2rem;
 	margin: auto;
 	font-variant: 800;
 	font-size: 1.5rem;
 	color: black;
+
 }
+
 
 h4 {
 	font-family: 'League Script', serif;
 	color: black;
 	text-align: left;
-	padding: 0;
+	padding: 0 0 0 2rem;
 	margin: 0;
 	width: 100%;
 	font-size: 150%;
+}
+
+.content-chunk-text h4, .content-chunk-text h3 {
+	padding: 0;
 }
 
 h5 {
@@ -169,6 +175,36 @@ h5 {
 	margin-top: 2rem;
 }
 
+.content-container {
+	align-items: center;
+	align-content: flex-start;
+}
+
+.content-chunk-image {
+	padding: 1rem;
+	align-content: center;
+	align-items: center;
+	/*width: 50%;*/
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+.content-chunk-text {
+	padding: 1rem;
+	/*width: 50%;*/
+}
+
+.content-quote {
+	background: repeating-linear-gradient(
+		125deg,
+		rgb(244, 220, 225),
+		rgb(244, 220, 225) 5px,
+		white 5px,
+		white 20px
+	);	
+}
+
 p {
 	margin: 0 0 2rem 0;
 }
@@ -192,6 +228,25 @@ p a:hover, p a:focus {
 }
 
 img {
-	max-width: 400px;
-	/*margin: 0.5rem 0 0.5rem 0;*/
+	max-width: 450px;
+}
+
+img .old {
+	max-width: 200px;
+}
+
+.content-colour {
+	padding: 5rem;
+}
+
+#primary {
+	background-color: rgb(0, 147, 68);
+}
+
+#secondary {
+	background-color: rgb(56, 180, 73);
+}
+
+#tertiary {
+	background-color: rgb(0, 167, 157);
 }

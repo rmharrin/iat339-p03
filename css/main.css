@@ -268,6 +268,10 @@ img .old {
 	color: black;
 }
 
+#about-title {
+	text-align: center;
+}
+
 #atkinson .nav-main-item {
 	color: white;
 }
@@ -297,4 +301,11 @@ img .old {
 
 #styleguide .nav-main-item {
 	color: white;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	z-index: 1;
 }

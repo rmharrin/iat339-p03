@@ -24,6 +24,7 @@
 body {
 	font-family: 'soleil', sans-serif;
 	background-color: black;
+	margin: 0;
 }
 
 .nav-main-container {
@@ -88,9 +89,9 @@ nav a {
   	background-size: 30px 30px;
   	background-position: 0 0, 15px 15px;
 }
-}
 
 #nav-main-item5:hover, #nav-main-item5:focus {
+	/*dark green*/
 	background-color: rgb(57, 89, 64);
 	color: white;
 }
@@ -104,34 +105,35 @@ h1 {
 	text-align: center;
 	/*pink*/
 	color: rgb(244, 220, 225);
+	font-weight: lighter;
 }
 
 h2 {
 	font-family: 'League Script', serif;
 	text-align: center;
 	color: white;
+	font-weight: lighter;
 }
 
 h3 {
-	font-family: 'League Script', serif;
+	font-family: 'soleil', sans-serif;
 	display: block;
-	text-align: center;
+	text-align: left;
 	padding: 0.75rem 0 0.5rem 0;
 	margin: auto;
 	font-variant: 800;
 	font-size: 1.5rem;
-	width: 30%;
-	/*dark green*/
-	background-color: rgb(57, 89, 64);
-	color: white;
+	color: black;
 }
 
 h4 {
-	color: white;
-	text-transform: uppercase;
-	background: black;
-	padding: 0.5rem;
-	width: 21rem;
+	font-family: 'League Script', serif;
+	color: black;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-size: 150%;
 }
 
 h5 {
@@ -143,7 +145,8 @@ h5 {
 }
 
 .content-container {
-	margin: 1rem;
+	padding: 1rem;
+	background-color: white;
 }
 
 .content-main-about {
@@ -164,6 +167,10 @@ h5 {
 
 .content-main {
 	margin-top: 2rem;
+}
+
+p {
+	margin: 0 0 2rem 0;
 }
 
 p a {

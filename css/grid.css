@@ -68,6 +68,7 @@
 	.nav-main-item {
 		display: block;
 		font-size: 0.8rem;
+		border-bottom: 0;
 	}
 
 	#nav-main-item1 {
@@ -96,6 +97,15 @@
 	}
 
 	#nav-main-item4 {
+		background: white;
+	  	background-image:
+	    	radial-gradient(rgb(255, 246, 201) 20%, transparent 0), 
+	    	radial-gradient(rgb(255, 246, 201) 20%, transparent 0);
+	  	background-size: 30px 30px;
+	  	background-position: 0 0, 15px 15px;
+	}
+
+	#nav-main-item5 {
 		background-color: rgb(57, 89, 64);
 		color: white;
 	}
@@ -145,10 +155,13 @@
 @media (min-width: 40em) {
 	.nav-main-container {
 		display: flex;
+
 	}	
 
 	.nav-main-item {
 		display: block;
+		padding: 1rem 0;
+		border-bottom: 3px white solid;
 	}
 
 	nav a {
@@ -204,7 +217,7 @@
 		margin: -7rem 0 0 0;
 	}
 
-	#nav-main-item1, #nav-main-item2, #nav-main-item3, #nav-main-item4 {
+	#nav-main-item1, #nav-main-item2, #nav-main-item3, #nav-main-item4, #nav-main-item5 {
 		background: initial;
 		background-color: white;
 		color: black;

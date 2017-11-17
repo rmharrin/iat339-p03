@@ -11,111 +11,12 @@
 	/*rgb(245, 245, 245);*/	
 
 /* P A G E - L E V E L  E L E M E N T S */
-body {
-	font-family: 'Montserrat', sans-serif;
-}
-
-.nav-main-container {
-	width: 100%;
-}
-
-nav a {
-	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
-	color: black;
-	text-decoration: none;
-	padding: 0.5rem;
-	border-bottom: 3px white solid;
-	position: relative;
-}
-
-.nav-main-item {
-	/*color: white;
-	background-color: black;*/
+.nav-sub-container {
 	background-color: white;
-	color: black;
-	/*border-bottom: 3px black solid;*/
-	border-bottom: 3px white solid;
-	z-index: 1;
 }
 
-.nav-main-item:hover, .nav-main-item:focus, .nav-sub:hover, .nav-sub:focus {
-	/*pink*/
-	border-bottom: 3px rgb(244, 220, 225) solid;
-}
-
-#nav-main-item1:hover, .nav-main-item1:focus {
-	background: repeating-linear-gradient(
-		125deg,
-		rgb(255, 246, 201),
-		rgb(255, 246, 201) 5px,
-		white 5px,
-		white 20px
-	);	
-}
-
-#nav-main-item2:hover, #nav-main-item2:focus {
-	background-color: black;
-	color: white;
-}
-
-#nav-main-item3:hover, #nav-main-item3:focus {
-	background: repeating-linear-gradient(
-		125deg,
-		rgb(244, 220, 225),
-		rgb(244, 220, 225) 5px,
-		white 5px,
-		white 20px
-	);		
-}
-
-#nav-main-item4:hover, #nav-main-item4:focus {
-	background-color: rgb(57, 89, 64);
-	color: white;
-}
-
-.nav-sub {
-	margin: 3rem 0 3rem 0;
-}
-
-h1 {
-	font-family: 'Montserrat', serif;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-h2 {
-	font-family: 'League Script', serif;
-	text-align: center;
-	color: white;
-}
-
-h3 {
-	font-family: 'League Script', serif;
-	display: block;
-	text-align: center;
-	padding: 0.75rem 0 0.5rem 0;
-	margin: auto;
-	font-variant: 800;
-	font-size: 1.5rem;
-	/*background stripes code found at
-	https://css-tricks.com/stripes-css/*/
-/*	background: repeating-linear-gradient(
-		125deg,
-		rgb(255, 246, 201),
-		rgb(255, 246, 201) 5px,
-		white 5px,
-		white 20px
-	);*/
-	width: 30%;
-}
-
-h4 {
-	color: white;
-	text-transform: uppercase;
-	background: black;
-	padding: 0.5rem;
-	width: 21rem;
+section {
+	width: 100%;
 }
 
 h5 {
@@ -157,12 +58,15 @@ code {
 }
 
 .link-intext:hover, .link-intext:focus {
-	font-family: 'Montserrat', serif;
 	color: rgb(244, 220, 225);
 }
 
 .grid-instantStack h1 {
 	font-size: 5rem;
+}
+
+#style-headings {
+	background-color: black;
 }
 
 .colour-swatch {
@@ -172,28 +76,28 @@ code {
 	padding: 5rem;
 }
 
-#primary {
+#me-primary {
 	/*pink*/
 	background-color: rgb(244, 220, 225);
 	padding: 5rem;
 }
 
-#secondary {
+#me-secondary {
 	/*yellow*/
 	background-color: rgb(255, 246, 201);
 }
 
-#tertiary {
+#me-tertiary {
 	/*dark green*/
 	background-color: rgb(57, 89, 64);
 }
 
-#fourth {
+#me-fourth {
 	/*mauve*/
 	background-color: rgb(167, 134, 141);
 }
 
-#fifth {
+#me-fifth {
 	/*grey*/
 	background-color: rgb(245, 245, 245);
 }

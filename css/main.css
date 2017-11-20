@@ -66,8 +66,12 @@ nav a {
 }
 
 #nav-main-item2:hover, #nav-main-item2:focus {
-	background-color: black;
-	color: white;
+	background: transparent;
+  	background-image:
+    	radial-gradient(rgb(244, 220, 225) 20%, transparent 0), 
+    	radial-gradient(rgb(244, 220, 225) 20%, transparent 0);
+  	background-size: 30px 30px;
+  	background-position: 0 0, 15px 15px;
 }
 
 #nav-main-item3:hover, #nav-main-item3:focus {
@@ -272,9 +276,27 @@ img .old {
 	text-align: center;
 }
 
-#atkinson .nav-main-item {
-	color: white;
+#atkinson {
+	background: white;
+  	background-image:
+    	radial-gradient(rgb(244, 220, 225) 20%, transparent 0), 
+    	radial-gradient(rgb(244, 220, 225) 20%, transparent 0);
+  	background-size: 30px 30px;
+  	background-position: 0 0, 15px 15px;
 }
+
+#atkinson .nav-main-item {
+	color: black;
+}
+
+#atkinson h1 {
+	color: rgb(57, 89, 64);
+}
+
+#atkinson h2 {
+	color: black;
+}
+
 
 #yl {
 	background: repeating-linear-gradient(

@@ -77,11 +77,11 @@ nav a {
 #nav-main-item3:hover, #nav-main-item3:focus {
 	background: repeating-linear-gradient(
 		125deg,
-		rgb(244, 220, 225),
-		rgb(244, 220, 225) 5px,
+		rgb(57, 89, 64),
+		rgb(57, 89, 64) 5px,
 		transparent 5px,
 		transparent 20px
-	);		
+	);				
 }
 
 #nav-main-item4:hover, #nav-main-item4:focus {
@@ -94,9 +94,13 @@ nav a {
 }
 
 #nav-main-item5:hover, #nav-main-item5:focus {
-	/*dark green*/
-	background-color: rgb(57, 89, 64);
-	color: white;
+	background: repeating-linear-gradient(
+		125deg,
+		rgb(244, 220, 225),
+		rgb(244, 220, 225) 5px,
+		transparent 5px,
+		transparent 20px
+	);
 }
 
 .nav-sub {

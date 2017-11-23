@@ -43,12 +43,13 @@ nav a {
 
 .nav-main-item {
 	background-color: transparent;
-	color: black;
+	color: white;
 	border-bottom: 3px white solid;
 	z-index: 1;
 }
 
 .nav-main-item:hover, .nav-main-item:focus, .nav-sub:hover, .nav-sub:focus {
+	color: white;
 	/*pink*/
 	border-bottom: 3px rgb(244, 220, 225) solid;
 }

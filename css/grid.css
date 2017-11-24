@@ -49,18 +49,17 @@
 
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-
 }
 
-.content-chunk-text {
-	flex: 1 1 30em;
+.content-sidebar {
+	flex: 2;
 }
 
-.content-chunk-image {
-	flex: 2 2 5em;
+.content-main {
+	flex: 3;
 }
 
-@media (min-width: 0) {
+@media (min-width: 0) and (min-device-width: 0px) {
 	.nav-main-container {
 		display: block;
 	}
@@ -69,6 +68,7 @@
 		display: block;
 		font-size: 0.8rem;
 		border-bottom: 0;
+		color: black;
 	}
 
 	#nav-main-item1 {
@@ -122,15 +122,18 @@
 	h1 {
 		text-align: center;
 		margin-top: 1rem;
-		font-size: 3rem;
+		font-size: 1.75rem;
 	}
 
 	h2 {
-		margin-top: -2rem;
+		margin-top: -1rem;
+		font-size: 1rem;
 	}
 
 	h3 {
+		font-size: 1rem;
 		width: 100%;
+		padding: 0;
 	}
 
 	.element {
@@ -142,6 +145,18 @@
 		display: block;
 	}
 
+	.grid-element-aboutImage {
+		text-align: center;
+	}
+
+	.grid-element-aboutImage:nth-last-child(-n+11) {
+		display: none;
+	}
+
+	.content-container {
+		width: 100%;
+	}
+
 	.grid-instantStack h1 {
 		font-size: 1.9rem;
 	}
@@ -149,13 +164,34 @@
 	code {
 		max-width: 100%;
 	}
+
+	body {
+		width: 100%;
+		float: none;
+	}
 }
 
+@media (min-device-width: 320px) {
+	body {
+		width: 100%;
+	}
+
+	.content-sidebar {
+		flex: none;
+		max-width: 100%;
+	}
+
+	.content-main {
+	}
+
+	.content-container img {
+		max-width: 100%;
+	}
+}
 
 @media (min-width: 40em) {
 	.nav-main-container {
 		display: flex;
-
 	}	
 
 	.nav-main-item {
@@ -204,6 +240,14 @@
 	.grid-instantStack h1 {
 		font-size: 3rem;
 	}
+
+	.content-sidebar {
+		flex: 1;
+	}
+
+	.content-main {
+		flex: 1;
+	}
 }
 
 @media (min-width: 64em) {
@@ -237,6 +281,14 @@
 
 	.grid-element-sidebar, .grid-element-main {
 		width: 100%;
+	}
+
+	.content-sidebar {
+		flex: 2;
+	}
+
+	.content-main {
+		flex: 3;
 	}
 }
 

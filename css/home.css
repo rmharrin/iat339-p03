@@ -9,7 +9,7 @@
 .index-style #nav-main-item5 {
 	color: white;
 	width: 100%;
-	padding: 3.3rem 0;
+	padding: 3.1rem 0;
 	border-bottom: none;
 }
 
@@ -32,6 +32,6 @@
 	.index-style #nav-main-item3, 
 	.index-style #nav-main-item4, 
 	.index-style #nav-main-item5 {
-		padding: 3.3rem 0;
+		padding: 3.1rem 0;
 	}
 }

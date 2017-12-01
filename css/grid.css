@@ -62,48 +62,48 @@ footer h5 {
 
 	.nav-main-item {
 		display: block;
-		font-size: 0.8rem;
+		font-size: 2rem;
 		border-bottom: 0;
 		color: black;
 	}
 
 	#nav-main-item1 {
-		background: repeating-linear-gradient(
+		/*background: repeating-linear-gradient(
 		125deg,
 		rgb(255, 246, 201),
 		rgb(255, 246, 201) 5px,
-		white 5px,
-		white 20px
-	);	
+		transparent 5px,
+		transparent 20px
+		);*/	
 	}
 
 	#nav-main-item2 {
-		background-color: black;
-		color: white;			
+		/*background-color: black;
+		color: white;	*/		
 	}
 
 	#nav-main-item3 {
-		background: repeating-linear-gradient(
+		/*background: repeating-linear-gradient(
 			125deg,
 			rgb(244, 220, 225),
 			rgb(244, 220, 225) 5px,
-			white 5px,
-			white 20px
-		);
+			transparent 5px,
+			transparent 20px
+		);*/
 	}
 
 	#nav-main-item4 {
-		background: white;
+		/*background: transparent;
 	  	background-image:
 	    	radial-gradient(rgb(255, 246, 201) 20%, transparent 0), 
 	    	radial-gradient(rgb(255, 246, 201) 20%, transparent 0);
 	  	background-size: 30px 30px;
-	  	background-position: 0 0, 15px 15px;
+	  	background-position: 0 0, 15px 15px;*/
 	}
 
 	#nav-main-item5 {
-		background-color: rgb(57, 89, 64);
-		color: white;
+		/*background-color: rgb(57, 89, 64);
+		color: white;*/
 	}
 
 	.nav-sub {
@@ -118,12 +118,12 @@ footer h5 {
 	h1 {
 		text-align: center;
 		margin-top: 1rem;
-		font-size: 1.75rem;
+		font-size: 3rem;
 	}
 
 	h2 {
 		margin-top: -1rem;
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	h3 {

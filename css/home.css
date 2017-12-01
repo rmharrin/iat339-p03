@@ -12,3 +12,26 @@
 	padding: 3.3rem 0;
 	border-bottom: none;
 }
+
+@media (min-width: 0) and (min-device-width: 0px) {
+	.index-style #nav-main-item1, 
+	.index-style #nav-main-item2, 
+	.index-style #nav-main-item3, 
+	.index-style #nav-main-item4, 
+	.index-style #nav-main-item5 {
+		color: white;
+		width: 100%;
+		padding: 2rem 0;
+		border-bottom: none;
+	}	
+}
+
+@media (min-width: 64em) {
+	.index-style #nav-main-item1, 
+	.index-style #nav-main-item2, 
+	.index-style #nav-main-item3, 
+	.index-style #nav-main-item4, 
+	.index-style #nav-main-item5 {
+		padding: 3.3rem 0;
+	}
+}

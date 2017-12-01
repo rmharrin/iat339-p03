@@ -1,0 +1,348 @@
+$pink: rgb(244, 220, 225);
+$yellow: rgb(255, 246, 201);
+$green: rgb(57, 89, 64);
+
+@font-face {
+  font-family: 'Aliens and Cows';
+  src: url('aliens-and-cows.eot'); /* IE9 Compat Modes */
+  src: url('aliens-and-cows.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('aliens-and-cows.woff2') format('woff2'), /* Super Modern Browsers */
+       url('aliens-and-cows.woff') format('woff'), /* Pretty Modern Browsers */
+       url('aliens-and-cows.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('aliens-and-cows.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+	font-family: 'soleil', sans-serif;
+	background-color: black;
+	margin: 0;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+.nav-main-container {
+	width: 100%;
+}
+
+nav a {
+	display: inline-block;
+	font-family: 'soleil', sans-serif;
+	color: black;
+	text-decoration: none;
+	padding: 0.5rem;
+	border-bottom: 3px white solid;
+	position: relative;
+}
+
+.nav-main-item {
+	background-color: transparent;
+	color: white;
+	border-bottom: 3px white solid;
+	z-index: 1;
+}
+
+.nav-main-item:hover, .nav-main-item:focus, .nav-sub:hover, .nav-sub:focus {
+	color: white;
+	border-bottom: 3px $pink solid;
+}
+
+#nav-main-item1:hover, .nav-main-item1:focus {
+	/*background stripes code found at
+	https://css-tricks.com/stripes-css/*/
+	background: repeating-linear-gradient(
+		125deg,
+		$yellow,
+		$yellow 5px,
+		transparent 5px,
+		transparent 20px
+	);	
+}
+
+#nav-main-item2:hover, #nav-main-item2:focus {
+	background: transparent;
+  	background-image:
+    	radial-gradient($pink 20%, transparent 0), 
+    	radial-gradient($pink 20%, transparent 0);
+  	background-size: 30px 30px;
+  	background-position: 0 0, 15px 15px;
+}
+
+#nav-main-item3:hover, #nav-main-item3:focus {
+	background: repeating-linear-gradient(
+		125deg,
+		$green,
+		$green 5px,
+		transparent 5px,
+		transparent 20px
+	);				
+}
+
+#nav-main-item4:hover, #nav-main-item4:focus {
+	background: transparent;
+  	background-image:
+    	radial-gradient($yellow 20%, transparent 0), 
+    	radial-gradient($yellow 20%, transparent 0);
+  	background-size: 30px 30px;
+  	background-position: 0 0, 15px 15px;
+}
+
+#nav-main-item5:hover, #nav-main-item5:focus {
+	background: repeating-linear-gradient(
+		125deg,
+		$pink,
+		$pink 5px,
+		transparent 5px,
+		transparent 20px
+	);
+}
+
+.nav-sub {
+	margin: 3rem 0 3rem 0;
+}
+
+h1 {
+	font-family: 'Aliens and Cows', sans-serif;
+	text-align: center;
+	color: $pink;
+	font-weight: lighter;
+}
+
+h1 a {
+	text-decoration: none;
+	color: $pink;
+
+}
+
+h2 {
+	font-family: 'League Script', serif;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+}
+
+h3 {
+	font-family: 'soleil', sans-serif;
+	display: block;
+	text-align: center;
+	padding: 0.75rem 0 0.5rem 0;
+	margin: auto;
+	font-variant: 800;
+	color: black;
+}
+
+.content-main h4, .content-main h3 {
+	text-align: left;
+}
+
+
+h4 {
+	font-family: 'League Script', serif;
+	color: black;
+	text-align: center;
+	margin: 0 0 1rem 0;
+	width: 100%;
+	font-size: 1.25rem;
+}
+
+.content-chunk-text h4, .content-chunk-text h3 {
+	padding: 0;
+}
+
+h5 {
+	text-transform: uppercase;
+	padding: 1rem;
+}
+
+.content-container {
+	padding: 1rem;
+	background-color: white;
+}
+
+.content-main-about {
+	width: 75%;
+	display: block;
+	margin: auto;
+}
+
+.content-intro .content-chunk-text {
+	width: 75%;
+	margin: auto;
+}
+
+.content-intro p {
+	margin: 0;
+}
+
+.content-main {
+	margin-top: 2rem;
+}
+
+.content-chunk-image {
+	align-content: center;
+	align-items: center;
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+.content-chunk-text {
+	padding: 1rem;
+}
+
+.content-sidebar .intro {
+	align-content: center;
+}
+
+.content-quote {
+	background: repeating-linear-gradient(
+		125deg,
+		$pink,
+		$pink 5px,
+		white 5px,
+		white 20px
+	);	
+}
+
+p {
+	margin: 0 0 2rem 0;
+}
+
+p a {
+	font-weight: 800;
+	color: $green;
+	text-decoration: none;
+}
+
+p a:hover, p a:focus {
+	font-family: 'soleil', serif;
+	
+	color: $pink;
+}
+
+.grid-element-aboutImage img {
+	max-width: 150px;
+	margin: 0.5rem;
+}
+
+img {
+	max-width: 450px;
+}
+
+.old img {
+	max-width: 250px;
+	margin: 3rem 0 3rem 0;
+}
+
+.content-colour {
+	padding: 1rem;
+	margin: 0.5rem 0;
+}
+
+#primary-atk {
+	background-color: rgb(0, 147, 68);
+}
+
+#secondary-atk {
+	background-color: rgb(56, 180, 73);
+}
+
+#tertiary-atk {
+	background-color: rgb(0, 167, 157);
+}
+
+#primary-yl {
+	background-color: rgb(0, 63, 95);
+}
+
+#secondary-yl {
+	background-color: rgb(193, 215, 47);
+}
+
+#tertiary-yl {
+	background-color: rgb(154, 215, 219);
+}
+
+#about {
+	background: repeating-linear-gradient(
+		125deg,
+		$yellow,
+		$yellow 5px,
+		white 5px,
+		white 20px
+	);	
+}
+
+#about-title {
+	text-align: center;
+}
+
+#atkinson {
+	background: white;
+  	background-image:
+    	radial-gradient($pink 20%, transparent 0), 
+    	radial-gradient($pink 20%, transparent 0);
+  	background-size: 30px 30px;
+  	background-position: 0 0, 15px 15px;
+  	width: 100%;
+}
+
+#atkinson .nav-main-item {
+	color: black;
+}
+
+
+#yl {
+	background-color: $green;
+	color: white;	
+	width: 100%;
+}
+
+#conclusion {
+	background: repeating-linear-gradient(
+		125deg,
+		$green,
+		$green 5px,
+		white 5px,
+		white 20px
+	);		
+	margin-top: 0;
+}
+
+#styleguide {
+	background-color: $green;
+}
+
+#styleguide .nav-main-item {
+	color: white;
+}
+
+.conclusion {
+	width: 75%;
+	margin: auto;
+}
+
+.conclusion .content-chunk-text p {
+	margin-bottom: 0;
+}
+
+footer {
+	background-color: $pink;
+}
+
+footer a {
+	background-color: $pink;
+	text-decoration: none;
+	color: black;
+}
+
+footer h5 {
+	background-color: $pink;
+	margin: 0;
+}
+
+#git {
+	text-align: right;
+}

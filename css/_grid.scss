@@ -1,0 +1,340 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.grid {
+	display: -ms-flex;
+	display: flex;
+
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.grid-nav-item {
+	flex: 1;
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+}
+
+.grid-element-head {
+	display: block;
+	width: 100%;
+}
+
+.grid-element-cell {
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+	max-width: 50%;
+}
+
+.grid-instantStack {
+	min-width: 100%;
+}
+
+.grid-element-aboutImage {
+	flex: 1;
+}
+
+.content-container {
+	display: -ms-flex;
+	display: flex;
+
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.content-sidebar {
+	flex: 2;
+}
+
+.content-main {
+	flex: 3;
+}
+
+footer h5 {
+	flex: 1;
+}
+
+@media (min-width: 0) and (min-device-width: 0px) {
+	.nav-main-container {
+		display: block;
+	}
+
+	.nav-main-item {
+		display: block;
+		font-size: 2rem;
+		border-bottom: 0;
+	}
+
+	.nav-sub {
+		margin: 1rem 0 1rem 0;
+	}
+
+	nav a {
+		text-align: center;
+		border-bottom: 3px black solid;
+	}
+
+	h1 {
+		text-align: center;
+		margin-top: 1rem;
+		font-size: 3rem;
+	}
+
+	h2 {
+		margin-top: -1rem;
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+		width: 100%;
+		padding: 0;
+	}
+
+	.element {
+		margin: 0;
+	}
+
+	.grid-element-cell {
+		max-width: 100%;
+		display: block;
+	}
+
+	.grid-element-aboutImage {
+		text-align: center;
+	}
+
+	.grid-element-aboutImage:nth-last-child(-n+11) {
+		display: none;
+	}
+
+	.content-container {
+		width: 100%;
+	}
+
+	.grid-instantStack h1 {
+		font-size: 1.9rem;
+	}
+
+	code {
+		max-width: 100%;
+	}
+
+	body {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media (min-device-width: 320px) {
+	body {
+		width: 100%;
+	}
+
+	.content-sidebar {
+		flex: none;
+		max-width: 100%;
+	}
+
+	.content-container img {
+		max-width: 100%;
+	}
+
+	.grid-element-aboutImage img {
+		max-width: 200px;
+	}
+}
+
+@media (min-width: 40em) {
+	.nav-main-container {
+		display: flex;
+	}	
+
+	.nav-main-item {
+		display: block;
+		padding: 1rem 0;
+		border-bottom: 3px white solid;
+	}
+
+	nav a {
+		text-align: center;		
+		border-bottom: 3px white solid;
+	}
+
+	nav a:hover, nav a:focus {
+		border-bottom: 3px black solid;
+	}
+
+	h1 {
+		margin-top: -1.75rem;
+		font-size: 5.2rem;		
+	}
+
+	h2 {
+		margin-top: -4.5rem;
+		font-size: 1.7rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	.content-quote h3{
+		font-size: 1.25rem;
+	}
+
+	h4 {
+		font-size: 1.75rem;
+	}
+
+	.nav-sub {
+		min-width: 30%;
+	}
+
+	.element {
+		margin: 2rem 0 2rem 0;
+	}
+
+	.grid-element-cell {
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		max-width: 50%;
+	}
+
+	.grid-instantStack h1 {
+		font-size: 3rem;
+	}
+
+	.content-container img {
+		max-width: 250px;
+	}
+
+	.content-container .old img {
+		max-width: 250px;
+	}
+
+	.content-sidebar {
+		flex: 1;
+	}
+
+	.content-main {
+		flex: 1;
+	}
+
+	.grid-element-aboutImage:nth-last-child(-n+3) {
+		display: block;
+	}
+}
+
+@media (min-width: 48em) {
+	.grid-element-aboutImage:nth-last-child(-n+5) {
+		display: block;
+	}
+}
+
+@media (min-width: 64em) {
+	h1 {
+		font-size: 8.3rem;
+		margin-top: -2.5rem;
+	}
+
+	h2 {
+		font-size: 2.7rem;
+		margin: -7rem 0 0 0;
+	}
+
+	#nav-main-item1, #nav-main-item2, #nav-main-item3, #nav-main-item4, #nav-main-item5 {
+		background: initial;
+		color: white;
+	}
+
+	.nav-main-item {
+		font-size: 1rem;
+		text-align: center;
+	}	
+
+	.grid-instantStack h1 {
+		font-size: 5rem;
+	}
+
+	.grid-instantStack h2 {
+		margin: -5rem 0 0 0;
+	}
+
+	.grid-element-sidebar, .grid-element-main {
+		width: 100%;
+	}
+
+	.content-container img {
+		max-width: 350px;
+	}
+
+	.content-sidebar {
+		flex: 2;
+	}
+
+	.content-main {
+		flex: 3;
+	}
+
+	.grid-element-aboutImage:nth-last-child(-n+8) {
+		display: block;
+	}
+
+	.grid-element-aboutImage:nth-last-child(-n+1) {
+		display: none;
+	}
+
+	.grid-element-aboutImage img {
+		max-width: 150px;
+	}
+}
+
+@media (min-width: 72em) {
+	h1 {
+		font-size: 9.5rem;
+		margin-top: -2.6rem;
+	}
+
+	h2 {
+		font-size: 3.2rem;
+		margin: -8.3rem 0 0 0;
+	}
+
+	.content-container img {
+		max-width: 450px;
+	}
+
+	.grid-element-aboutImage:nth-last-child(-n+11) {
+		display: block;
+	}
+
+	.grid-element-aboutImage img {
+		max-width: 150px;
+	}
+}
+
+@media (min-width: 81em) {
+	h1 {
+		font-size: 10.5rem;
+		margin-top: -3rem;
+	}
+
+	h2 {
+		margin: -9rem 0 0 0;
+	}
+
+}
+
+@media (min-width: 87.5em) {
+	h1 {
+		font-size: 11.5rem;
+		margin-top: -3.2rem;
+	}
+
+	h2 {
+		margin: -9.75rem 0 0 0;
+	}
+
+}

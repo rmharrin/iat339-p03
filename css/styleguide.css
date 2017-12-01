@@ -15,6 +15,10 @@
 	background-color: white;
 }
 
+.nav-sub-container a:hover {
+	color: black;
+}
+
 section {
 	width: 100%;
 }
@@ -41,11 +45,21 @@ h5 {
 	padding: 0 0 1rem 1rem;
 }
 
+.meta-grid {
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
 code {
 	padding: 0.5rem;
 	/*pink*/
 	background-color: rgb(244, 220, 225);
 	line-height: 1.5rem;
+}
+
+.bg-black {
+	background-color: black;
 }
 
 /* S T Y L E  G U I D E  E L E M E N T S */
@@ -65,8 +79,30 @@ code {
 	font-size: 5rem;
 }
 
-#style-headings {
-	background-color: black;
+.bg-black nav a {
+	border-bottom: 3px black solid;
+}
+
+.bg-black h1 {
+	margin-top: 0;
+}
+
+section .content-intro {
+	background-color: rgb(244, 220, 225);
+	padding: 4rem;
+}
+
+section .content-sidebar {
+	background-color: rgb(255, 246, 201);
+	padding: 4rem;
+	flex: 2;
+}
+
+section .content-main {
+	background-color: rgb(57, 89, 64);
+	padding: 4rem;
+	margin: 0;
+	flex: 3;
 }
 
 .colour-swatch {
@@ -102,9 +138,41 @@ code {
 	background-color: rgb(245, 245, 245);
 }
 
+@media (min-width: 0) {
+	section .content-sidebar {
+		flex: none;
+	}
+
+	section .content-main {
+		flex: none;
+	}
+
+	section .content-main h3 {
+		text-align: center;
+	}
+}
+
 @media (min-width: 40em) {
 	h5 {
 		width: 100%;
+	}
+
+	section .content-sidebar {
+		flex: 1;
+	}
+
+	section .content-main {
+		flex: 1;
+	}
+}
+
+@media (min-width: 64em) {
+	section .content-sidebar {
+		flex: 2;
+	}
+
+	section .content-main {
+		flex: 3;
 	}
 }
 

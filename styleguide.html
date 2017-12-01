@@ -14,8 +14,8 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script> 
 </head>
 <body>
-    <div id="styleguide">
-        <h1>rebecca harrington</h1>    
+    <header>
+        <h1><a href="index.html">rebecca harrington</a></h1>    
         <h2>project three style guide</h2>
         <nav class="nav-main-container grid">
             <a href="about.html" class="nav-main-item grid-nav-item" id="nav-main-item1">about</a>
@@ -24,7 +24,7 @@
             <!--<a href="https://github.com/rmharrin/iat339-p03" class="nav-main-item grid-nav-item" id="nav-main-item4">git repo</a>
             <a href="styleguide.html" class="nav-main-item grid-nav-item" id="nav-main-item5">style guide</a>-->
         </nav>
-    </div>   
+    </header>
     <nav class="nav-sub-container grid">
         <a href="#interactive" class="nav-sub grid-nav-item">interactive elements</a>
         <a href="#text" class="nav-sub grid-nav-item">text elements</a>
@@ -57,7 +57,7 @@
                         <h5>Sample Code</h5>
                         <code>&lt;a class="nav-main grid-nav-item" id="nav-main-item1 href="about.html"&gt;about&lt;/a&gt;</code>
                     </div>
-                    <div class="grid-element-cell">
+                    <div class="grid-element-cell bg-black">
                         <h5>Rendered Element</h5>
                         <nav>
                             <a href="#" class="nav-main-item grid-nav-item" id="nav-main-item1">about</a>
@@ -79,7 +79,7 @@
                               &lt;h2&gt;visual + communication design&lt;/h2&gt;<br>
                               &lt;h3&gt;atkinson landscaping&lt;/h3&gt;</code>
                     </div>
-                    <div class="grid-element-cell grid-instantStack" id="style-headings">
+                    <div class="grid-element-cell grid-instantStack bg-black">
                         <h5>Rendered Element</h5>
                         <h1>rebecca harrington</h1>
                         <h2>visual + communication design</h2>
@@ -102,58 +102,6 @@
                     </div>
                 </div>
             </section>
-            <section class="element">
-                <h4>Bulleted List</h4>
-                <div class="grid"> 
-                    <div class="grid-element-cell">
-                        <h5>CSS Selector</h5>
-                        <p>ul</p>
-                        <h5>Sample Code</h5>
-                        <code>&lt;ul&gt;<br>
-                                &lt;li&gt;Go to your Account View.&lt;/li&gt;<br>
-                                &lt;li&gt;Click on Current Box.&lt;/li&gt;<br>
-                                &lt;li&gt;Find the product you'd like to return.&lt;/li&gt;<br>
-                                &lt;li&gt;Click the "Return" button next to it.&lt;/li&gt;<br>
-                                &lt;li&gt;Fill out the return request form.&lt;/li&gt;<br>
-                                &lt;li&gt;Check your e-mail for an e-mail confirmation from us.&lt;/li&gt;<br>
-                              &lt;/ul&gt;</code>
-                    </div>
-                    <div class="grid-element-cell">
-                        <h5>Rendered Element</h5>
-                        <ul>
-                            <li>Go to your Account View.</li>
-                            <li>Click on Current Box.</li>
-                            <li>Find the product you'd like to return.</li>
-                            <li>Click the "Return" button next to it.</li>
-                            <li>Fill out the return request form.</li>
-                            <li>Check your e-mail for an e-mail confirmation from us.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="element">
-                <h4>Numbered List</h4>
-                <div class="grid"> 
-                    <div class="grid-element-cell">
-                        <h5>CSS Selector</h5>
-                        <p>ol</p>
-                        <h5>Sample Code</h5>
-                        <code>&lt;ol&gt;<br>
-                                &lt;li&gt;They are experts. No one eats up a book or tastes a cup of tea like our people do.&lt;/li&gt;<br>
-                                &lt;li&gt;They receive T&amp;T boxes every month, too.&lt;/li&gt;<br>
-                                &lt;li&gt;They come from all across the globe, bringing us the best of the best.&lt;/li&gt;<br>
-                              &lt;/ol&gt;</code>
-                    </div>
-                    <div class="grid-element-cell">
-                        <h5>Rendered Element</h5>
-                        <ol>
-                            <li>They are experts. No one eats up a book or tastes a cup of tea like our people do.</li>
-                            <li>They receive T&amp;T boxes every month, too.</li>
-                            <li>They come from all across the globe, bringing us the best of the best.</li>
-                        </ol>
-                    </div>
-                </div>
-            </section>
         </section>
         <section id="combined">
             <h3>combined elements</h3>
@@ -171,27 +119,40 @@
                                 &lt;a href="#" class="nav-main-item grid-nav-item"&gt;<br>templates&lt;/a&gt;<br>
                                &lt;/nav&gt;</code>
                     </div>
-                    <div class="grid-element-cell grid-instantStack">
+                    <div class="grid-element-cell grid-instantStack bg-black">
                         <h5>Rendered Element</h5>
-                            <nav class="nav-main-container grid">
-                                <a href="#" class="nav-main-item grid-nav-item">style guide</a>
-                                <a href="#" class="nav-main-item grid-nav-item">process analyses</a>
-                                <a href="#" class="nav-main-item grid-nav-item">bio draft</a>
-                                <a href="#" class="nav-main-item grid-nav-item">templates</a>
-                            </nav>
+                        <nav class="nav-main-container grid">
+                            <a href="about.html" class="nav-main-item grid-nav-item" id="nav-main-item1">about</a>
+                            <a href="atkinson.html" class="nav-main-item grid-nav-item" id="nav-main-item2">atkinson landscaping</a>
+                            <a href="younglife.html" class="nav-main-item grid-nav-item" id="nav-main-item3">young life of canada</a>
+                            <a href="https://github.com/rmharrin/iat339-p03" class="nav-main-item grid-nav-item" id="nav-main-item4">new years camp</a>
+                            <a href="styleguide.html" class="nav-main-item grid-nav-item" id="nav-main-item5">weddings</a>
+                        </nav>
                     </div>
                 </div>
             </section>
             <section class="element">
                 <h4>Grid Structure</h4>
                 <div class="grid"> 
-                    <div class="grid-instantStack">
-                            <nav class="nav-main-container grid">
-                                <a href="#" class="nav-main-item grid-nav-item">style guide</a>
-                                <a href="#" class="nav-main-item grid-nav-item">process analyses</a>
-                                <a href="#" class="nav-main-item grid-nav-item">bio draft</a>
-                                <a href="#" class="nav-main-item grid-nav-item">templates</a>
-                            </nav>
+                    <div class="grid-instantStack bg-black">
+                        <nav class="nav-main-container grid">
+                            <a href="about.html" class="nav-main-item grid-nav-item" id="nav-main-item1">about</a>
+                            <a href="atkinson.html" class="nav-main-item grid-nav-item" id="nav-main-item2">atkinson landscaping</a>
+                            <a href="younglife.html" class="nav-main-item grid-nav-item" id="nav-main-item3">young life of canada</a>
+                            <a href="https://github.com/rmharrin/iat339-p03" class="nav-main-item grid-nav-item" id="nav-main-item4">new years camp</a>
+                            <a href="styleguide.html" class="nav-main-item grid-nav-item" id="nav-main-item5">weddings</a>
+                        </nav>
+                        <section class="content-intro">
+                            <h3>1</h3>
+                        </section>
+                        <div class="meta-grid">    
+                            <section class="content-sidebar">
+                                <h3>2</h3>
+                            </section>
+                            <section class="content-main">
+                                <h3>3</h3>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </section>

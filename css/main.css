@@ -249,20 +249,32 @@ img {
 }
 
 .content-colour {
-	padding: 1.5rem;
+	padding: 1rem;
 	margin: 0.5rem 0;
 }
 
-#primary {
+#primary-atk {
 	background-color: rgb(0, 147, 68);
 }
 
-#secondary {
+#secondary-atk {
 	background-color: rgb(56, 180, 73);
 }
 
-#tertiary {
+#tertiary-atk {
 	background-color: rgb(0, 167, 157);
+}
+
+#primary-yl {
+	background-color: rgb(0, 63, 95);
+}
+
+#secondary-yl {
+	background-color: rgb(193, 215, 47);
+}
+
+#tertiary-yl {
+	background-color: rgb(154, 215, 219);
 }
 
 #about {
@@ -335,6 +347,17 @@ img {
 	color: black;
 }
 
+#conclusion {
+	background: repeating-linear-gradient(
+		125deg,
+		rgb(57, 89, 64),
+		rgb(57, 89, 64) 5px,
+		white 5px,
+		white 20px
+	);		
+	margin-top: 0;
+}
+
 #styleguide {
 	background-color: rgb(57, 89, 64);
 }
@@ -346,6 +369,10 @@ img {
 .conclusion {
 	width: 75%;
 	margin: auto;
+}
+
+.conclusion .content-chunk-text p {
+	margin-bottom: 0;
 }
 
 footer {

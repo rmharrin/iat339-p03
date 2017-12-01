@@ -116,6 +116,12 @@ h1 {
 	font-weight: lighter;
 }
 
+h1 a {
+	text-decoration: none;
+	color: rgb(244, 220, 225);
+
+}
+
 h2 {
 	font-family: 'League Script', serif;
 	text-align: center;
@@ -126,24 +132,26 @@ h2 {
 h3 {
 	font-family: 'soleil', sans-serif;
 	display: block;
-	text-align: left;
-	padding: 0.75rem 0 0.5rem 2rem;
+	text-align: center;
+	padding: 0.75rem 0 0.5rem 0;
 	margin: auto;
 	font-variant: 800;
-	font-size: 1.5rem;
 	color: black;
+}
 
+.content-main h4, .content-main h3 {
+	text-align: left;
 }
 
 
 h4 {
 	font-family: 'League Script', serif;
 	color: black;
-	text-align: left;
-	padding: 0 0 0 2rem;
+	text-align: center;
+	/*padding: 0 0 0 2rem;*/
 	margin: 0;
 	width: 100%;
-	font-size: 150%;
+	font-size: 1.5rem;
 }
 
 .content-chunk-text h4, .content-chunk-text h3 {
@@ -313,11 +321,11 @@ img .old {
 #yl {
 	background: repeating-linear-gradient(
 		125deg,
-		rgb(244, 220, 225),
-		rgb(244, 220, 225) 5px,
+		rgb(57, 89, 64),
+		rgb(57, 89, 64) 5px,
 		white 5px,
 		white 20px
-	);		
+	);	
 }
 
 #yl h1 {
@@ -327,6 +335,11 @@ img .old {
 #yl h2 {
 	color: black;
 
+}
+
+#yl p {
+	background-color: white;
+	color: black;
 }
 
 #styleguide {

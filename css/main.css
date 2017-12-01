@@ -27,6 +27,11 @@ body {
 	margin: 0;
 }
 
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
 .nav-main-container {
 	width: 100%;
 }
@@ -148,10 +153,9 @@ h4 {
 	font-family: 'League Script', serif;
 	color: black;
 	text-align: center;
-	/*padding: 0 0 0 2rem;*/
-	margin: 0;
+	margin: 0 0 1rem 0;
 	width: 100%;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 .content-chunk-text h4, .content-chunk-text h3 {
@@ -159,11 +163,8 @@ h4 {
 }
 
 h5 {
-	color: black;
 	text-transform: uppercase;
-	background: white;
-	padding: 0.5rem;
-	width: 15rem;
+	padding: 1rem;
 }
 
 .content-container {
@@ -177,22 +178,17 @@ h5 {
 	margin: auto;
 }
 
-.content-sidebar {
-	/*margin: 2rem 1rem 0 1rem;*/
+.content-intro .content-chunk-text {
+	width: 75%;
+	margin: auto;
 }
 
-.grid-element-sidebar {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.content-intro p {
+	margin: 0;
 }
 
 .content-main {
 	margin-top: 2rem;
-}
-
-.content-container {
-
 }
 
 .content-chunk-image {
@@ -205,12 +201,6 @@ h5 {
 
 .content-chunk-text {
 	padding: 1rem;
-}
-
-.intro {
-	display: flex;
-	margin: 1rem;
-	height: 20%;
 }
 
 .content-sidebar .intro {
@@ -253,12 +243,13 @@ img {
 	max-width: 450px;
 }
 
-img .old {
-	max-width: 200px;
+.old img {
+	max-width: 250px;
+	margin: 3rem 0 3rem 0;
 }
 
 .content-colour {
-	padding: 2rem;
+	padding: 1.5rem;
 	margin: 0.5rem 0;
 }
 
@@ -303,6 +294,7 @@ img .old {
     	radial-gradient(rgb(244, 220, 225) 20%, transparent 0);
   	background-size: 30px 30px;
   	background-position: 0 0, 15px 15px;
+  	width: 100%;
 }
 
 #atkinson .nav-main-item {
@@ -326,6 +318,7 @@ img .old {
 		white 5px,
 		white 20px
 	);	
+	width: 100%;
 }
 
 #yl h1 {
@@ -350,9 +343,26 @@ img .old {
 	color: white;
 }
 
-.copyright {
-	position: absolute;
-	bottom: 0;
-	color: white;
-	z-index: 1;
+.conclusion {
+	width: 75%;
+	margin: auto;
+}
+
+footer {
+	background-color: rgb(244, 220, 225);
+}
+
+footer a {
+	background-color: rgb(244, 220, 225);
+	text-decoration: none;
+	color: black;
+}
+
+footer h5 {
+	background-color: rgb(244, 220, 225);
+	margin: 0;
+}
+
+#git {
+	text-align: right;
 }

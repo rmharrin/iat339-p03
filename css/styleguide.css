@@ -101,3 +101,15 @@ code {
 	/*grey*/
 	background-color: rgb(245, 245, 245);
 }
+
+@media (min-width: 40em) {
+	h5 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 81em) {
+	h5 {
+		width: 50%;
+	}
+}

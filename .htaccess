@@ -1,4 +1,4 @@
-## EXPIRES CACHING ##
+## EXPIRES CACHING found at https://varvy.com/pagespeed/leverage-browser-caching.html##
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpg "access 1 year"
